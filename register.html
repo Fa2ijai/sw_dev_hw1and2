@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>งานสัปดาห์หนังสือ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg">
+        <img class="booksImg"  src="image\pexels-element-digital-1370295.jpg" alt="books" width="100%" height="200px">
+        <div id="content2">
+            <h1>ลงทะเบียนพื้นที่แสดงสินค้างานสัปดาห์หนังสือ 2566</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>ชื่อบริษัท</td>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>ขนาดบูธ</td>
+                        <td><select id="size">
+                            <option value="5">5x5 ฟุต</option>
+                            <option value="10">10x10 ฟุต</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ต้องการโต๊ะตั้งในบูธ</td>
+                        <td><input type="radio" id="yes" name="table" value="yes"><label for="yes">Yes</label>
+                            <input type="radio" id="no" name="table" value="no"><label for="no">No</label></td>
+                    </tr>
+                    <tr>
+                        <td>จำนวนเก้าอี้</td>
+                        <td><input type="number" id="amount" required></td>
+                    </tr>
+                    <tr>
+                        <td>ชื่อผู้ติดต่อ</td>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>เบอร์ผู้ติดต่อ</td>
+                        <td><input type="tel" id="phone" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="SUBMIT" id="submit" required></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+   
+</body>
+</html>
